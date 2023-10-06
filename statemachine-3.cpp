@@ -31,6 +31,7 @@ struct secondState : sc::simple_state<secondState, statemachine> {
 
 
 int main() {
+    // dynamic memory
 	shared_ptr<statemachine> sm = make_shared<statemachine>();
 	sm->initiate();
 	sm->process_event(event_MoveToSecond());
