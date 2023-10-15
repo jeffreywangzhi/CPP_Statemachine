@@ -5,6 +5,7 @@ Ref: https://github.com/CodeSports/State-Machine-Using-Boost-Statechart/tree/mas
 [Completed] Chapter 1
 [Completed] Chapter 2
 [Completed] Chapter 3
+[In Progress] Chapter 3
 
 ## Who do I talk to <a name = "author"></a>
 - Jeffrey Wang (jeffrey.wanggg@gmail.com)
