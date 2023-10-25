@@ -23,12 +23,12 @@ struct firstState : sc::simple_state<firstState, statemachine>
 {
 	firstState() { cout << "In State => firstState" << endl; }
 	typedef mpl::list <
-		// auto transition
+		// auto transition: no code here
 		sc::transition<event_MoveToSecondState, secondState>,
 		// manual transition
 		sc::custom_reaction<event_MoveToThirdState>
 	> reactions;
-	// maunal transition
+	// maunal transition: able to add code
 	sc::result react(const event_MoveToThirdState &event) {
 		return transit<thirdState>();
 	}
